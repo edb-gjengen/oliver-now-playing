@@ -10,7 +10,7 @@ import sys
 HandlerClass = SpotifyHTTPRequestHandler
 ServerClass = BaseHTTPServer.HTTPServer
 Protocol = "HTTP/1.0"
-port = 8000
+port = 8001
 server_address = ("127.0.0.1", port)
 
 player, bridge = (None, None)
@@ -107,4 +107,5 @@ def main():
     __serve(__get_data)
 
 if __name__ == "__main__":
+    print "http://localhost:8001"
     main()
