@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from SpotifyHTTPRequestHandler import SpotifyHTTPRequestHandler
 
 import BaseHTTPServer
